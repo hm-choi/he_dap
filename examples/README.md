@@ -18,7 +18,7 @@ These datasets are provided in the following CSV files:
     examples\dataset\insurance.csv
 ```
 
-## Experiment 1: Performance of Inverse Square Root
+## Experiment 1: Performance of Inverse Square Root (corresponds to Section 5.2 in the paper)
 We evaluate the accuracy and efficiency of HE-DAP and compare them to those of the existing SotA methods, HEaaN-STAT [3] and
 PP-STAT [4]. l denotes the ciphertext level, d denotes the detree of the Chebyshev polynomials, c denotes the Pre-BTS predictor, and i denotes the number of iterations.
 
@@ -35,12 +35,13 @@ PP-STAT [4]. l denotes the ciphertext level, d denotes the detree of the Chebysh
 | PP-STAT w/ **HE-DAP (S)** | 7  | 2⁶−2 | 1 |  3 | 2.78 × 10⁻⁴       | 92.0     |
 
 
-## Experiment 2: Performance of Statistical Operations
+## Experiment 2: Performance of Statistical Operations (corresponds to Section 5.3 in the paper)
+### Note. Section 5.3 of the paper reports results on HEAAN, but this repository includes only the Lattigo-based experimental results.
 We evaluate HE-DAP on the statistical operations in PP-STAT [3] to verify the effect of parameter optimization. These operations include Z-score normalization (ZNorm), skewness (Skew), kurtosis (Kurt), and the Pearson correlation coefficient (PCC). B denotes the scaling constant, and the results for ciphertext level 11 are shown.
 
 ### Table. Performance of statistical measures on Lattigo
 
-| Measure      | Method                | B   | MRE              | Time(s)  |
+| Measure      | Method                | B   | MRE              | Time(s)   |
 |--------------|-----------------------|-----|------------------|-----------|
 | Z-Score      | PP-STAT               | 100 | 4.687 × 10⁻⁸     | 145.64    |
 |              | PP-STAT w/ **HE-DAP** | 100 | 3.290 × 10⁻⁸     | 96.25     |
@@ -52,7 +53,7 @@ We evaluate HE-DAP on the statistical operations in PP-STAT [3] to verify the ef
 |              | PP-STAT w/ **HE-DAP** | 20  | 7.410 × 10⁻⁸     | 197.12    |
 
 
-## Experiment 3: Evaluation on Real-world Datasets
+## Experiment 3: Evaluation on Real-world Datasets (corresponds to Section 5.4 in the paper)
 We evaluate the performance of HE-DAP using four statistical measures—ZNorm, Skew, Kurt, and PCC—on the same real-world dataset.
 
 ### Expeirment 3.1 
