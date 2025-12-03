@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/hm-choi/pp-stat-plus/utils"
+	"github.com/hm-choi/he_dap/utils"
 	"github.com/tuneinsight/lattigo/v6/core/rlwe"
 )
 

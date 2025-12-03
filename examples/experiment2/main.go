@@ -9,9 +9,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/hm-choi/pp-stat-plus/config"
-	"github.com/hm-choi/pp-stat-plus/engine"
-	"github.com/hm-choi/pp-stat-plus/utils"
+	"github.com/hm-choi/he_dap/config"
+	"github.com/hm-choi/he_dap/engine"
+	"github.com/hm-choi/he_dap/utils"
 )
 
 func main() {

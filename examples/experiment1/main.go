@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/hm-choi/pp-stat-plus/config"
-	"github.com/hm-choi/pp-stat-plus/engine"
-	invsqrt "github.com/hm-choi/pp-stat-plus/examples/inv_sqrt"
-	"github.com/hm-choi/pp-stat-plus/utils"
+	"github.com/hm-choi/he_dap/config"
+	"github.com/hm-choi/he_dap/engine"
+	invsqrt "github.com/hm-choi/he_dap/examples/inv_sqrt"
+	"github.com/hm-choi/he_dap/utils"
 )
 
 func main() {
