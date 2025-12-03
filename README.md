@@ -1,8 +1,17 @@
 # HE-DAP: Homomorphic Encryption-based Dynamic Adaptive Parameter Optimization for Statistical Computation
 
-# ![Overview of the HE-DAP](./figure/overview_final.png)
+# ![Overview of the HE-DAP](./figure/overview.png)
 
-Official repository for **HE-DAP: Homomorphic Encryption-based Dynamic Adaptive Parameter Optimization for Statistical Computation**  
+Official repository for **HE-DAP: Homomorphic Encryption-based Dynamic Adaptive Parameter Optimization for Statistical Computation(SAC'26)**
+by
+Yun-Soo Park<sup>1</sup>, Hyunmin Choi<sup>2,3**</sup>, Hyoungshick Kim<sup>3</sup>, Mun-Kyu Lee<sup>1**</sup>
+
+<sup>1</sup> Inha University, South Korea
+<sup>2</sup> NAVER Cloud, South Korea
+<sup>3</sup> Sungkyunkwan University, South Korea
+
+** Corresponding author
+
 
 HE-DAP is a new method that determines the optimal parameters of the inverse square root function proposed in PP-STAT. It includes the implementations of parameters optimizer, and 4 statistial analyses:
 
