@@ -25,6 +25,7 @@ func main() {
 	f, _ := os.Create("output.log")
 	mw := io.MultiWriter(os.Stdout, f)
     log.SetOutput(mw)
+	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
 
 	const (
 		DATA_SIZE = 32768 // Slot size
