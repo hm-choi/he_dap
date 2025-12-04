@@ -1,8 +1,8 @@
-module github.com/hm-choi/pp-stat-plus
+module github.com/hm-choi/he_dap
 
 go 1.23.2
 
-replace github.com/hm-choi/pp-stat-plus => /root/pstat-plus
+replace github.com/hm-choi/he_dap => ./
 require github.com/tuneinsight/lattigo/v6 v6.1.1
 
 require (

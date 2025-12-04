@@ -6,8 +6,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/hm-choi/pp-stat-plus/engine"
-	"github.com/hm-choi/pp-stat-plus/utils"
+	"github.com/hm-choi/he_dap/engine"
+	"github.com/hm-choi/he_dap/utils"
 )
 
 type Dtuple struct {

@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/hm-choi/pp-stat-plus/config"
-	"github.com/hm-choi/pp-stat-plus/engine"
-	"github.com/hm-choi/pp-stat-plus/optimizer"
+	"github.com/hm-choi/he_dap/config"
+	"github.com/hm-choi/he_dap/engine"
+	"github.com/hm-choi/he_dap/optimizer"
 )
 
 type CaseInfo struct {
@@ -25,6 +25,7 @@ func main() {
 	f, _ := os.Create("output.log")
 	mw := io.MultiWriter(os.Stdout, f)
     log.SetOutput(mw)
+	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
 
 	const (
 		DATA_SIZE = 32768 // Slot size

@@ -6,8 +6,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/hm-choi/pp-stat-plus/engine"
-	"github.com/hm-choi/pp-stat-plus/utils"
+	"github.com/hm-choi/he_dap/engine"
+	"github.com/hm-choi/he_dap/utils"
 	"github.com/tuneinsight/lattigo/v6/circuits/ckks/polynomial"
 	"github.com/tuneinsight/lattigo/v6/core/rlwe"
 )

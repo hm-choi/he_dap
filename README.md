@@ -1,8 +1,15 @@
 # HE-DAP: Homomorphic Encryption-based Dynamic Adaptive Parameter Optimization for Statistical Computation
 
-# ![Overview of the HE-DAP](./figure/overview_final.png)
+# ![Overview of the HE-DAP](./figure/overview.png)
 
-Official repository for **HE-DAP: Homomorphic Encryption-based Dynamic Adaptive Parameter Optimization for Statistical Computation**  
+Official repository for **HE-DAP: Homomorphic Encryption-based Dynamic Adaptive Parameter Optimization for Statistical Computation(SAC'26)**
+by
+Yun-Soo Park<sup>1</sup>, Hyunmin Choi<sup>2,3</sup>, Hyoungshick Kim<sup>3</sup>, Mun-Kyu Lee<sup>1</sup>
+
+<sup>1</sup> Inha University, South Korea
+<sup>2</sup> NAVER Cloud, South Korea
+<sup>3</sup> Sungkyunkwan University, South Korea
+
 
 HE-DAP is a new method that determines the optimal parameters of the inverse square root function proposed in PP-STAT. It includes the implementations of parameters optimizer, and 4 statistial analyses:
 
@@ -11,7 +18,7 @@ HE-DAP is a new method that determines the optimal parameters of the inverse squ
 - Kurtosis
 - Pearson Correlation Coefficient (PCC)
 
-In this repository, only the code implemented on Lattigo is available, while the code based on HEaaN cannot be released public due to the restrictions of the HEaaN license.
+In this repository, only the code implemented on Lattigo is available, while the code based on HEaaN cannot be released public due to the restrictions of the HEaaN license (link: https://iheaan.com/?target=heaan-stat).
 
 ## Abstract
 Homomorphic encryption (HE) enables privacy-preserving analytics but remains hindered by high computational overhead. We find that the inverse square root—a key primitive in many statistical and machine learning workloads—exhibits inconsistent and often suboptimal performance across HE libraries and hardware. This stems from a core trade-off between two costly HE operations: evaluating high-degree Chebyshev polynomials to speed up Newton’s method versus performing bootstrapping to manage ciphertext noise. Because their relative costs vary by up to 6× across environments, any fixed configuration proves inherently inefficient. \

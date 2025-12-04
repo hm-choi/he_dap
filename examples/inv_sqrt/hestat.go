@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/hm-choi/pp-stat-plus/engine"
+	"github.com/hm-choi/he_dap/engine"
 )
 
 func HEStat(e *engine.HEEngine, ct *engine.HEData, iter int, B float64) (*engine.HEData, error) {
