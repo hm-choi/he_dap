@@ -11,7 +11,7 @@ Yun-Soo Park<sup>1</sup>, Hyunmin Choi<sup>2,3</sup>, Hyoungshick Kim<sup>3</sup
 <sup>3</sup> Sungkyunkwan University, South Korea
 
 
-HE-DAP is a new method that determines the optimal parameters of the inverse square root function proposed in PP-STAT. It includes the implementations of parameters optimizer, and 4 statistial analyses:
+HE-DAP is a new method that determines the optimal parameters of the inverse square root function proposed in PP-STAT. It includes the implementations of parameter optimizer, and 4 statistial analyses:
 
 - Z-Score Normalization
 - Skewness
